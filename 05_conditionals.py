@@ -35,7 +35,6 @@ elif r == 2: print('C')
 elif r == 3: print('G')
 else:        print('T')
 
-
 # Let's put that code above into a loop and generate some random sequence
 # Note the use of end='' to prevent starting a new line
 
