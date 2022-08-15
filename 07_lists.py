@@ -125,5 +125,5 @@ print(s, seq)
 # 	python3 07_lists.py a b c 1 2 3
 
 import sys
-print(sys.argv)
+print(sys.argv[1:7])
 

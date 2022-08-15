@@ -23,7 +23,7 @@ data = []
 for line in fileinput.input():
 	#if line[0] == '#': continue # skip over comments
 	if line.startswith('#'): continue # same as above
-	line = line.rstrip() # remove newline (return character), often useful
+	line = line.rstrip() # remove newline n character (return character), often useful
 	data.append(float(line)) # store the data
 
 

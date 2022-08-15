@@ -2,7 +2,6 @@
 
 # Move the triple quotes downward to uncover each segment of code
 
-"""
 
 # The most common way to get data into a program is by reading a file
 # Before reading a file you must open it first
@@ -12,6 +11,7 @@
 print('\n--- type ---')
 with open('numbers.txt', 'r') as fp:
 	print(type(fp))
+
 
 # In the code above, the 'with' statment creates block structure
 # The file is automatically closed after leaving the block
@@ -25,12 +25,14 @@ with open('numbers.txt') as fp:
 	stuff = fp.read()
 print(stuff)
 
+
 # The readline() method returns a single line
 
 print('\n--- readline() ---')
 with open('numbers.txt') as fp:
 	line = fp.readline()
 print(line)
+
 
 # The readlines() method returns all of the lines as an array of strings
 # That means you can iterate over the contents with a 'for' loop
@@ -46,6 +48,7 @@ print(numbers)
 # Biological data files can be immense, and are often compressed with gzip
 # You can read from compressed files directly without uncompressing them
 
+"""
 import gzip
 with gzip.open('strings.txt.gz', 'rt') as fp:
 	print(fp.read())
