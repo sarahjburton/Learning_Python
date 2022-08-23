@@ -81,7 +81,7 @@ for i in range(0, len(dna), 3): #start at 0, stop at length of dna, step in 3s
 print(''.join(pro)) #gets rid of spaces (string separators) to make one string
 
 # Dictionaries can be used to count things, like k-mers
-k = 2
+k = 5
 count = {}
 for i in range(len(dna) -k +1):
 	kmer = dna[i:i+k]
