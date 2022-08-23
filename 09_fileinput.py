@@ -6,8 +6,6 @@ import sys
 
 # Move the triple quotes downward to uncover each segment of code
 
-
-
 # We have been using hard-coded data in our programs like this
 
 dna = 'CATGGGCACGCATTACAGT'

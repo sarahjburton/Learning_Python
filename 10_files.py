@@ -48,9 +48,9 @@ print(numbers)
 # Biological data files can be immense, and are often compressed with gzip
 # You can read from compressed files directly without uncompressing them
 
-"""
+
 import gzip
-with gzip.open('strings.txt.gz', 'rt') as fp:
+with gzip.open('exons.txt.gz', 'rt') as fp:
 	print(fp.read())
 
 # In the code above, 'rt' means to read as text (the usual thing to do)
@@ -60,5 +60,3 @@ with gzip.open('strings.txt.gz', 'rt') as fp:
 # 	python3 your_program.py > your_output   # saves to a file
 #	python3 your_program.py | other_program # pipes to a program
 
-
-"""
